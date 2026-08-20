@@ -6,6 +6,7 @@ Repository: https://github.com/Wobin/Hush
 ]]--
 
 local mod = get_mod("Hush")
+mod.version = mod.get_metadata and mod:get_metadata("version") or "unknown"
 
 mod:hook(CLASS.CraftingView, "play_vo_events", function(func, self, sound, actor, x, y)   
     if mod:get("mute_hadron_craft") and sound and sound[1] == "crafting_complete" then

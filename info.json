@@ -1,0 +1,15 @@
+{
+	"name": "Hush",
+	"description": "Mutes specific NPCs when certain events occur",
+	"version": "1",
+	"author": "Wobin",
+	"source": "https://github.com/Wobin/Hush",
+	"funding": {
+		"kofi": "https://ko-fi.com/wobin_dwonderdog"
+	},
+	"order": {
+		"require": [],
+		"this_after": [],
+		"this_before": []
+	}
+}
